@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono' , monospace;
+}
+
+/* FIRST PAGE*/
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(221, 211, 140, 0.64),rgba(43, 21, 107, 0.87)), url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    cursor: pointer;
+    order: 3;
+    margin-right: auto;
+    width: 140px;
+    
+}
+
+nav{
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+    align-items: center;
+    order: 1;
+    height: 100px;
+    background-color: #B285A9;
+}
+
+.nav_content{
+    list-style: none;
+    flex: 1;
+    text-align: right;
+    
+}
+
+.nav_content ul li{
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+    
+}
+
+.nav_content ul li a{
+    color: #063E61;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+.nav_content li a:hover{
+    background-color: #8B4690;
+    transition: 0.3s;
+}
+
+.nav_content li a:active{
+    background-color: #A87FD1;
+    transition: 0.2s;
+}
+
+
+/* ABOUT PAGE*/
+.about{
+    width: 1500px;
+    max-width: 95%;
+    display: flex;
+    margin: 5% auto;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.about img{
+    width: 350px;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 0 35px rgba(0,0,0,0.3);
+}
+
+.about_details{
+    justify-content: center;
+    align-content: center;
+    width: 700px;
+    padding: 30px;
+}
+
+.about_details h1 {
+    font-size: 70px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 40px 0;
+    text-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.about_details h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #F7ACE5;
+}
+
+.about_details span{
+    font-size: 30;
+    margin-bottom: 20px;
+    color: #FAED7C;
+}
+.about_details p{
+    font-size: 20px; 
+    color: #fff;
+}
+
+.socials a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 15px;
+    color: #3C1CA2;
+    background-color: #B17ACA;
+    padding: 8px;
+    text-decoration: none;
+    
+}
+
+.socials a:hover{
+    transition: 0.3s;
+    background-color: #DCA3DB;
+}

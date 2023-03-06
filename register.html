@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset = "utf-8">
+    <title> My Website </title>
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1"> 
+    <link rel = "stylesheet" href ="register_style.css">
+    <link rel="website icon" type="svg" href="images/logo.png"/>
+    <title> Register </title>
+</head>
+
+<body>
+    <section class = "header">
+        <nav>
+            <a href = "index.html"><img class = "logo" src = "images/logo.png" alt = "logo"> </a>
+            <div class = "nav_content">
+            <ul>
+                <li><a href = "index.html"> Home</a></li>
+                <li><a href = "about.html"> About</a></li>
+                <li><a href = "main.html"> Main</a></li>
+                <li><a href = "login.html"> Login</a></li>
+                <li><a href = "register.html"> Register</a></li>
+            </ul>
+            </div>
+        </nav>
+        
+    <div class = "form-box2">
+       <form method = "post">
+        <div class = "head">
+            <p>Registration</p>
+        </div>
+        <div class = "input_field">
+            <input type = "text" class = "input_data" placeholder = "Username"  required> 
+        </div>
+        
+        <div class = "input_field">
+            <input type = "password" class = "input_data" placeholder = "Password" required> 
+        </div>
+        
+         <div class = "input_field">
+            <input type = "password" class = "input_data" placeholder = "Confirm Password" required> 
+        </div>
+          
+        <div class = "input_field">
+            <input type = "text" class = "input_data" placeholder = "Firstname" required> 
+        </div>
+           
+         <div class = "input_field">
+            <input type = "text" class = "input_data" placeholder = "Lastname" required> 
+        </div>
+           
+        <div class = "input_field">
+            <input type = "number" class = "input_data" placeholder = "Age" min = "0" max = "100" required> 
+        </div>
+        
+        <div class = "input_field">
+            <input type = "email" class = "input_data" placeholder = "Email" name = "email" required> 
+        </div>
+        
+        <div class = "input_field">
+            <input type = "number" class = "input_data" placeholder = "Mobile No." required> 
+        </div>
+        
+        <div class = "birthday_field">
+            <span class = "birthday_title">Birthday</span>
+            <input type = "date" class = "birthday_data" max = "2023-03-06" required>
+        </div>   
+           
+        <div class = "gender_details">
+            <span class = "gender_title">Gender</span>
+         <div class = "gender_category">
+            <input type = "radio"  name = "gender" id = "male">
+            <label for = "male"> Male </label>
+            <input type = "radio"  name = "gender" id = "female">
+            <label for = "female"> Female </label>
+            <input type = "radio"  name = "gender" id = "other">
+            <label for = "other"> Other </label>
+         </div>
+        </div>  
+        
+        
+        <div class = "upload_pic">
+            <span class = "image_title">Upload image</span>
+           <input type = "file" class = "file_button">
+        </div>
+           
+        <div class = "register">
+            <button type = "submit" class="register_button"> Register</button>
+        </div>
+           
+        <div class = "bottom">
+            <div class = "have_acc">
+                <p> Already have an account? <a href="login.html"><label>Log in here</label></a></p>
+            </div>
+        </div>
+    </form>
+    </div>
+    </section>
+</body>
